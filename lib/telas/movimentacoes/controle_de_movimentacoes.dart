@@ -32,10 +32,6 @@ class _ControleDeMovimentacoesState extends State<ControleDeMovimentacoes> {
   List<String> categorias = ['Vendas', 'Despesas', 'Outros'];
   List<String> formasPagamento = ['Cartão', 'Dinheiro', 'Transferência'];
 
-  String _status = 'Concluída';
-  String _tipo = 'Entrada';
-  String _categoria = 'Vendas';
-  String _formaPagamento = 'Cartão';
 
   @override
   Widget build(BuildContext context) {
